@@ -10,3 +10,5 @@ https://journals.ametsoc.org/doi/full/10.1175/JAMC-D-11-0143.1
 
 MetPy's implementation of Normand's rule:
 https://unidata.github.io/MetPy/latest/_modules/metpy/calc/thermo.html#wet_bulb_temperature
+
+![Animation](https://github.com/ahuang11/deriving_wetbulb/blob/master/bias_maps.gif)
