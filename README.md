@@ -11,4 +11,5 @@ https://journals.ametsoc.org/doi/full/10.1175/JAMC-D-11-0143.1
 MetPy's implementation of Normand's rule:
 https://unidata.github.io/MetPy/latest/_modules/metpy/calc/thermo.html#wet_bulb_temperature
 
+The half method and one-third rule tend to overestimate the wet bulb temperature within the Tropics; lreg (linear regression) has similar biases with the half method, but less; Stull's method does well across except the poles, the keras (deep learning) model exhibits almost no bias across.
 ![Animation](https://github.com/ahuang11/deriving_wetbulb/blob/master/bias_maps.gif)
